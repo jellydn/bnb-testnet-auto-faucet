@@ -1,0 +1,10 @@
+{
+  "name": "@aircarbon/auto-faucet-for-binance-testnet",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Huynh Duc Dung",
+  "license": "MIT",
+  "scripts": {
+    "dev": "deno run --watch --unstable --allow-read --allow-net --allow-write --allow-run --allow-env cron.ts"
+  }
+}
