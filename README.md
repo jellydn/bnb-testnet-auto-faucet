@@ -17,13 +17,15 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 ### Install puppeter
 
 ```sh
-PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@5.5.1/install.ts
-PUPPETEER_PRODUCT=firefox deno run -A --unstable https://deno.land/x/puppeteer@5.5.1/install.ts
+PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@9.0.1/install.ts
+PUPPETEER_PRODUCT=firefox deno run -A --unstable https://deno.land/x/puppeteer@9.0.1/install.ts
 ```
 
 ## Usage
 
 ```sh
+cp .env.example .env
+# Fill the account address and chrome path
 yarn dev
 ```
 
